@@ -1,4 +1,5 @@
 # Xcode
+<<<<<<< HEAD
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
@@ -60,3 +61,25 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+=======
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Dependencies/
+Package.resolved
+
+# macOS
+.DS_Store
+
+# Sensitive files
+*.p12
+*.cer
+*.pem
+*.key
+Secrets.swift
+>>>>>>> 1e54ba4 (Add README, .gitignore, LICENSE, and initial Swift files for SecureNotes)
